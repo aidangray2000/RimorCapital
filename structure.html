@@ -1,29 +1,58 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <div class="navbar">
-   <li> <a href="structure.html">Managers</a></li> 
-   <li> <a href="structure.html">Portfolio</a></li> 
-   <li> <a href="structure.html">Summary</a></li> 
-   <li style="float:right"> <a href="https://www.linkedin.com/company/82133217/admin/"> 
-        <img src="Linkedin-logo.png" width="75x" height="40x"></a></li>
-   <li style="float:left"> <a href="structure.html"> <img alt="banner_logo"
-     src="white logo.JPG" width="140px" height="95x"> </a> </li>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widther=device-width, initial-scale=1.0">
+    <title>Rimor Capital</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo"><a href="#">Rimor Capital</a></div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="#">Summary</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner"></div>
+    <div class="summary">
+        <div class="content">
+            <div class="title">Summary</div>
+            <p>test paragraph asdadfakjfbskfbas;fbjasfb</p>
+        </div>
     </div>
 
-    
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+        }
+        cancelBtn.onclick = ()=>{
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+        }
 
-<body>
-
-
-
-
-
-
-
+        window.onscroll = ()=>{
+            this.scrollY > 20 ? navbar.classList.add("sticky"): navbar.classList.remove("sticky");
+        }
+    </script>
 
 </body>
+
 </html>
