@@ -33,8 +33,29 @@
             <p>test paragraph asdadfakjfbskfbas;fbjasfb</p>
         </div>
     </div>
+    <div class="portfolio">
+        <div class="content">
+            <div class="title">Portfolio</div>
+            <p>Gold position</p>
+        </div>
+    </div>
+    <div class="team">
+        <div class="content">
+            <div class="title">Team</div>
+            <p>Aidan Gray</p>
+            <p>Samuel Gray</p>
+            <p>John Henzler</p>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="content">
+            <div class="title">Contact</div>
+            <p>Link Here</p>
+        </div>
+    </div>
 
     <script>
+        const body = document.querySelector("body");
         const navbar = document.querySelector(".navbar");
         const menu = document.querySelector(".menu-list");
         const menuBtn = document.querySelector(".menu-btn");
@@ -42,10 +63,12 @@
         menuBtn.onclick = ()=>{
             menu.classList.add("active");
             menuBtn.classList.add("hide");
+            body.classList.add("disabledScroll");
         }
         cancelBtn.onclick = ()=>{
             menu.classList.remove("active");
             menuBtn.classList.remove("hide");
+            body.classList.remove("disabledScroll")
         }
 
         window.onscroll = ()=>{
