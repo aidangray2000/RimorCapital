@@ -205,3 +205,39 @@ background: rgb(0,123,255,0.3);
 .Agriculture {width: 36.97%; background-color: #000000;} 
 .basemetals {width: 13.03%; background-color: #000000;} 
 .preciousmetals {width: 11.44%; background-color: #000000;} 
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.team_container{
+  padding: 0 16px;
+}
+
+.team_container::after, .team::after{
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
