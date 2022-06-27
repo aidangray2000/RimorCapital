@@ -54,7 +54,7 @@
   color: cyan;
 }
 .banner{
-  height: 100vh;
+  height: 75vh;
   background: url("banner.jpg") no-repeat;
   background-size: cover;
   background-position: center;
@@ -66,7 +66,6 @@
 .summary .title{
   font-size: 35px;
   font-weight: 700;
-
 }
 .summary p{
   padding-top: 20px;
@@ -149,3 +148,20 @@
     font-size: 23px;
   }
 }
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.energy {width: 38.54%; background-color: #000000;} /* Green */
+.Agriculture {width: 36.97%; background-color: #000000;} /* Blue */
+.basemetals {width: 13.03%; background-color: #000000;} /* Red */
+.preciousmetals {width: 11.44%; background-color: #000000;} /* Dark Grey */
