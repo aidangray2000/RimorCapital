@@ -7,7 +7,19 @@
   font-family: 'Poppins', sans-serif;
 
 }
-
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::selection{
+background: rgb(0,123,255,0.3);
+}
 .content{
   max-width: 1250px;
   margin: auto;
@@ -24,6 +36,7 @@
 .navbar.sticky{
   position: 10px 0;
   background: #1b1b1b;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
 .navbar .content{
   display: flex;
@@ -71,6 +84,20 @@
   padding-top: 20px;
   text-align: justify;
 }
+.icon{
+  color:#fff;
+  font-size: 20px;
+  cursor: pointer; 
+  display: none;
+}
+.icon.cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+.navbar.sticky .icon.cancel-btn{
+  top: 10px;
+}
 .portfolio {
   padding: 40px 0;
 }
@@ -104,22 +131,24 @@
   padding-top: 20px;
   text-align: justify;
 }
-.icon{
-  color:#fff;
-  font-size: 20px;
-  cursor: pointer; 
-  display: none;
-}
-.icon.cancel-btn{
-  position: absolute;
-  right: 30px;
-  top: 20px;
-}
+
 @media (max-width:868px) {
   body.disabledScroll{
     overflow: hidden;
   }
   .icon{
+    display: block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    z-index: 9;
+  }
+  .icon.cancel-btn{
+    display: none;
+  }
+  .icon.cancel-btn show{
     display: block;
   }
   .icon.hide{
@@ -136,10 +165,14 @@
     padding: 40px 0;
     display: block;
     text-align: center;
+    clip-path: circle(25px at calc(100% - 55px) calc(0% +50px));
     transition: all 0.3s ease;
   }
+  .navbar.navbar.sticky .menu-list{
+    clip-path: circle(25px at calc(100% - 55px) calc(0% + 50px));
+  }
   .navbar .menu-list.active{
-    left: 0%;
+    clip-path: circle(75%);
   }
   .navbar .menu-list li{
     margin-top: 45px;
@@ -161,7 +194,7 @@
   color: white; /* White text color */
 }
 
-.energy {width: 38.54%; background-color: #000000;} /* Green */
-.Agriculture {width: 36.97%; background-color: #000000;} /* Blue */
-.basemetals {width: 13.03%; background-color: #000000;} /* Red */
-.preciousmetals {width: 11.44%; background-color: #000000;} /* Dark Grey */
+.energy {width: 38.54%; background-color: #000000;} 
+.Agriculture {width: 36.97%; background-color: #000000;} 
+.basemetals {width: 13.03%; background-color: #000000;} 
+.preciousmetals {width: 11.44%; background-color: #000000;} 
