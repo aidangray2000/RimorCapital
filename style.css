@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 
 }
-/* custom scroll bar */
+custom scroll bar
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -29,7 +29,7 @@ background: rgb(0,123,255,0.3);
   position: fixed;
   width: 100%;
   z-index: 2;
-  padding: 25px 0;
+  padding: 15px 0;
   transition: all 0.3s ease;
   background: #1b1b1b;
 }
@@ -127,30 +127,22 @@ background: rgb(0,123,255,0.3);
   position: absolute;
   right: 30px;
   top: 20px;
-
-}
-.icon.cancel-btn{
-  position: absolute;
-  right: 30px;
-  top: 20px;
-}
-.navbar.sticky .icon.cancel-btn{
-  top: 10px;
+  
 }
 
 @media (max-width:1230px){
   .content{
-    padding: 0 60px;
+    padding: 0 20px;
   }
 }
 @media (max-width: 1100px) {
   .content{
-    padding: 0 40px;
+    padding: 0 20px;
   }
 }
 @media (max-width: 900px) {
   .content{
-    padding: 0 30px;
+    padding: 0 20px;
   }
 }
 @media (max-width:868px) {
