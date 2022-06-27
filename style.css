@@ -127,15 +127,16 @@ background: rgb(0,123,255,0.3);
   position: absolute;
   right: 30px;
   top: 20px;
+
 }
-/* .icon.cancel-btn{
+.icon.cancel-btn{
   position: absolute;
   right: 30px;
   top: 20px;
-} */
-/* .navbar.sticky .icon.cancel-btn{
+}
+.navbar.sticky .icon.cancel-btn{
   top: 10px;
-} */
+}
 
 @media (max-width:1230px){
   .content{
@@ -159,12 +160,6 @@ background: rgb(0,123,255,0.3);
   .icon{
     display: block;
   }
-  /* .icon.cancel-btn{
-    display: none;
-  } */
-  /* .icon.cancel-btn show{
-    display: block;
-  } */
   .icon.hide{
     display: none;
   }
@@ -204,7 +199,7 @@ background: rgb(0,123,255,0.3);
 /* Container for skill bars */
 .container {
   width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+  background-color: #ddd; 
 }
 
 .skills {

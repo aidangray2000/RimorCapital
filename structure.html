@@ -92,11 +92,11 @@
             // menu.classList.add("active");
             navbar.classList.add("show");
             menuBtn.classList.add("hide");
-            body.classList.add("disabledScroll");
+            body.classList.add("disabled");
         }
         cancelBtn.onclick = ()=>{
-            body.classList.remove("disabledScroll");
-            navbar.classList.add("show");
+            body.classList.remove("disabled");
+            navbar.classList.remove("show");
             menuBtn.classList.remove("hide");
         }
         window.onscroll = ()=>{
