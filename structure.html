@@ -15,10 +15,10 @@
                 <div class="icon cancel-btn">
                     <i class="fas fa-times"></i>
                 </div>
-                <li><a href="#">Summary</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="icon menu-btn">
                 <i class="fas fa-bars"></i>
@@ -29,7 +29,7 @@
     <div class="banner">
         <!-- I want to add an overlay here to display our YTD return and return since inception -->
     </div>
-    <div class="summary">
+    <div id="summary" class="summary">
         <div class="content">
             <div class="title">Summary</div>
             <p>We are incredibly excited to announce the formation of Rimor Capital.</p> 
@@ -41,7 +41,7 @@
             <p>We can’t wait to showcase what our team is capable of, and we invite you to take this journey with us.</p>
         </div>
     </div>
-    <div class="portfolio">
+    <div id="portfolio" class="portfolio">
         <div class="content">
             <div class="title">Portfolio</div>
             <p>Energy</p>
@@ -65,7 +65,7 @@
             </div>
         </div>
     </div>
-    <div class="team">
+    <div id="team" class="team">
         <div class="content">
             <div class="title">Team</div>
             <p>Aidan Gray</p>
@@ -73,7 +73,7 @@
             <p>John Henzler</p>
         </div>
     </div>
-    <div class="contact">
+    <div id="contact" class="contact">
         <div class="content">
             <div class="title">Contact</div>
             <p>This needs changing</p>
@@ -101,6 +101,20 @@
         }
         window.onscroll = ()=>{
             this.scrollY > 20 ? navbar.classList.add("sticky"): navbar.classList.remove("sticky");
+            // var current = "";
+
+            // sections.forEach((section) => {
+            //     const sectionTop = section.offsetTop;
+            //     if (pageYOffset >= sectionTop - (sectionHeight /2)) {
+            //     current = section.getAttribute("id"); }
+            // });
+
+            // navLi.forEach((li) => {
+            //     li.classList.remove("active");
+            //     if (li.classList.contains(current)) {
+            //     li.classList.add("active");
+            //     }
+            // });
         }
     </script>
 
