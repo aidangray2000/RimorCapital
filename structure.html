@@ -139,6 +139,7 @@
         window.onscroll = ()=>{
             this.scrollY > 20 ? navbar.classList.add("sticky"): navbar.classList.remove("sticky");
         }
+        window.addEventListener("hashchange", function() { scrollBy(0, -50) })
     </script>
 
 </body>
