@@ -297,3 +297,10 @@ h3 span {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   color: white;
   }
+
+  .content_socials{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 30px;
+    text-align: center;
+  }
