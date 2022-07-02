@@ -305,90 +305,18 @@ h3 span {
   text-align: center;
 }
 
-.banner_container {
-
-}
-
-.overlay_aum{
-  position: absolute;
-  width: 250px;
+.overlay {
+  width: 100%;
   padding: 8px;
-  top: 25%;
-  right: 25%;
-  font-weight: bold;
-  text-align: right;
-  font-size: 16px;
-  color: white;
-  margin-right: 32px;
+  margin: auto;
   background-color: rgba(111, 111, 111, 0.5);
   border: 1px solid;
   border-image-slice: 1;
   border-width: 8px;
   border-image-source: linear-gradient(to bottom, #202021, #727173);
-  margin-left: auto;
-  margin-right: auto;
+  box-sizing: border-box;
+  float: left;
 }
- 
-.overlay_ytd{
-  position: absolute;
-  width: 250px;
-  padding: 8px;
-  top: 25%;
-  left: 25%;
-  font-weight: bold;
-  text-align: right;
-  font-size: 16px;
-  color: white;
-  margin-left: 32px;
-  background-color: rgba(111, 111, 111, 0.5);
-  border: 1px solid;
-  border-image-slice: 1;
-  border-width: 8px;
-  border-image-source: linear-gradient(to bottom, #202021, #727173);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.overlay_inception{
-  position: absolute;
-  width: 250px;
-  padding: 8px;
-  top: 50%;
-  right: 25%;
-  font-weight: bold;
-  text-align: right;
-  font-size: 16px;
-  color: white;
-  margin-right: 32px;
-  background-color: rgba(111, 111, 111, 0.5);
-  border: 1px solid;
-  border-image-slice: 1;
-  border-width: 8px;
-  border-image-source: linear-gradient(to bottom, #202021, #727173);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.overlay_month{
-  position: absolute;
-  width: 250px;
-  padding: 8px;
-  top: 50%;
-  left: 25%;
-  font-weight: bold;
-  text-align: right;
-  font-size: 16px;
-  color: white;
-  margin-left: 32px;
-  background-color: rgba(111, 111, 111, 0.5);
-  border: 1px solid;
-  border-image-slice: 1;
-  border-width: 8px;
-  border-image-source: linear-gradient(to bottom, #202021, #727173);
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .title_banner{
   font-size: 18px;
   font-weight: 500;
@@ -401,15 +329,16 @@ h3 span {
   font-weight: 200;
   text-align: justify;
 }
-/* .b-promo-funds__item {
-  position: relative;
+
+.banner_overlay{
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-self: center;
+}
+
+.banner_container{
+  width: 100%;
   height: 100%;
-  padding: 30px 30px 20px 30px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 1px solid;
-  border-image-slice: 1;
-  border-width: 1px;
-  border-image-source: linear-gradient(to bottom, #8264FF, #E0A0FF);
-  } */
+}
