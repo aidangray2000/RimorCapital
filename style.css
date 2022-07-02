@@ -296,11 +296,101 @@ h3 span {
   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   color: white;
-  }
+}
 
-  .content_socials{
-    max-width: 1250px;
-    margin: auto;
-    padding: 0px 30px;
-    text-align: center;
-  }
+.content_socials{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0px 30px;
+  text-align: center;
+}
+
+.banner_container {
+
+}
+
+.overlay_aum{
+  position: absolute;
+  width: 250px;
+  padding: 8px;
+  top: 25%;
+  right: 25%;
+  font-weight: bold;
+  text-align: right;
+  font-size: 16px;
+  color: white;
+  margin-right: 32px;
+  background-color: rgba(111, 111, 111, 0.5);
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 8px;
+  border-image-source: linear-gradient(to bottom, #202021, #727173);
+}
+ 
+.overlay_ytd{
+  position: absolute;
+  width: 250px;
+  padding: 8px;
+  top: 25%;
+  left: 25%;
+  font-weight: bold;
+  text-align: right;
+  font-size: 16px;
+  color: white;
+  margin-left: 32px;
+  background-color: rgba(111, 111, 111, 0.5);
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 8px;
+  border-image-source: linear-gradient(to bottom, #202021, #727173);
+}
+
+.overlay_inception{
+  position: absolute;
+  width: 250px;
+  padding: 8px;
+  top: 50%;
+  right: 25%;
+  font-weight: bold;
+  text-align: right;
+  font-size: 16px;
+  color: white;
+  margin-right: 32px;
+  background-color: rgba(111, 111, 111, 0.5);
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 8px;
+  border-image-source: linear-gradient(to bottom, #202021, #727173);
+}
+
+.overlay_month{
+  position: absolute;
+  width: 250px;
+  padding: 8px;
+  top: 50%;
+  left: 25%;
+  font-weight: bold;
+  text-align: right;
+  font-size: 16px;
+  color: white;
+  margin-left: 32px;
+  background-color: rgba(111, 111, 111, 0.5);
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 8px;
+  border-image-source: linear-gradient(to bottom, #202021, #727173);
+}
+
+
+/* .b-promo-funds__item {
+  position: relative;
+  height: 100%;
+  padding: 30px 30px 20px 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to bottom, #8264FF, #E0A0FF);
+  } */
