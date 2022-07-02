@@ -325,6 +325,8 @@ h3 span {
   border-image-slice: 1;
   border-width: 8px;
   border-image-source: linear-gradient(to bottom, #202021, #727173);
+  margin-left: auto;
+  margin-right: auto;
 }
  
 .overlay_ytd{
@@ -343,6 +345,8 @@ h3 span {
   border-image-slice: 1;
   border-width: 8px;
   border-image-source: linear-gradient(to bottom, #202021, #727173);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .overlay_inception{
@@ -361,6 +365,8 @@ h3 span {
   border-image-slice: 1;
   border-width: 8px;
   border-image-source: linear-gradient(to bottom, #202021, #727173);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .overlay_month{
@@ -379,9 +385,22 @@ h3 span {
   border-image-slice: 1;
   border-width: 8px;
   border-image-source: linear-gradient(to bottom, #202021, #727173);
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.title_banner{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+}
 
+.value_banner {
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: justify;
+}
 /* .b-promo-funds__item {
   position: relative;
   height: 100%;
