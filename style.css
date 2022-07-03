@@ -342,3 +342,11 @@ h3 span {
   grid-row-gap: 64px;
   align-self: center;
 }
+
+.about {
+  padding-top: 8px;
+  font-size: 16px;
+  font-weight: 750;
+  color: rgba(0, 0, 0, 0.35);
+  text-align: left;
+}
