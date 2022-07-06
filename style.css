@@ -279,17 +279,20 @@ h3 span {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  margin-left: 24px;
 }
 
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  margin-left: 24px;
 }
 
 .fa-linkedin {
   background: #0e76a8;
   color: white;
+  margin-left: 24px;
 }
 
 .fa-instagram{
