@@ -124,6 +124,18 @@ background: rgb(0,123,255,0.3);
   padding-top: 20px;
   text-align: justify;
 }
+.contact_fund {
+  padding: 30px 0;
+  margin-bottom: 32px;
+}
+.contact_fund .title{
+  font-size: 38px;
+  font-weight: 700;
+}
+.contact_fund p{
+  padding-top: 20px;
+  text-align: justify;
+}
 .icon{
   color:#fff;
   font-size: 20px;
