@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 
 }
-custom scroll bar
+/* custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -80,7 +80,7 @@ background: rgb(0,123,255,0.3);
   justify-content: center;
 }
 .summary{
-  /* padding: 30px 0; */
+  padding: 30px 0;
   margin-bottom: 32px;
 }
 .summary .title{
@@ -92,7 +92,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .portfolio {
-  /* padding: 30px 0; */
+  padding: 30px 0;
   margin-bottom: 32px;
 }
 .portfolio .title{
@@ -104,7 +104,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .team {
-  /* padding: 30px 0; */
+  padding: 30px 0;
   margin-bottom: 32px;
 
 }
@@ -129,7 +129,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .contact_fund {
-  /* padding: 30px 0; */
+  padding: 30px 0;
   margin-bottom: 32px;
 }
 .contact_fund .title{
@@ -423,7 +423,7 @@ h3 span {
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
-  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
   border: 1px solid #ced4da;
   outline: none;
   /* border-radius: 0.25rem; */
