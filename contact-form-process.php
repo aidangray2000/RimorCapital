@@ -3,6 +3,7 @@ if (isset($_POST['Email'])) {
 
     $email_to = "rimorcapital@gmail.com";
     $email_subject = "New form submissions";
+    
 
     function problem($error)
     {
@@ -61,8 +62,8 @@ if (isset($_POST['Email'])) {
 
     // create email headers
     $headers = 'From: ' . $email . "\r\n" .
-        'Reply-To: ' . $email . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+        'Reply-To: ' . $email . "\r\n" ;
+        // 'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 ?>
 
