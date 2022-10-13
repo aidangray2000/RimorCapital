@@ -45,14 +45,15 @@
             </div>
             <div class="overlay">
                 <div class ="title_banner">1-Month Return</div>
-                <div class="date_banner">As of 2022-07-01</div>                <div class="value_banner">-25%</div>
+                <div class="date_banner">As of 2022-07-01</div>                
+                <div class="value_banner">-25%</div>
             </div>
         </div>
         <!-- I want to add an overlay here to display our YTD return and return since inception -->
     </div>
     <div id="summary" class="summary">
         <div class="content">
-            <div class="title">Summary</div>
+            <div class="title" id="sum">Summary</div>
             <p>We are incredibly excited to announce the formation of Rimor Capital.</p> 
             <p></p>
             <p>Initially created in November of 2021, our team strives to identify and take advantage of market inefficiencies to produce handsome returns. Utilizing extensive research, quantitative analysis, and evaluation of global macroeconomic trends, our fund is set to cultivate returns outpacing our competitors.</p>
@@ -189,14 +190,14 @@
             menuBtn.classList.remove("hide");
         }
         menu.onclick = ()=>{
-            body.classList.remove("disabled");
+            body.classList.remove("enabled");
             navbar.classList.remove("show");
             menuBtn.classList.remove("hide");
         }
         window.onscroll = ()=>{
             this.scrollY > 20 ? navbar.classList.add("sticky"): navbar.classList.remove("sticky");
         }
-        window.addEventListener("hashchange", function() { scrollBy(0, -70) })
+        // window.addEventListener("hashchange", function() { scrollBy(0, -70) })
     </script>
 
 </body>
