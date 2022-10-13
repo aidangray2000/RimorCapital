@@ -11,18 +11,23 @@
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 html{
   scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
+
 ::selection{
 background: rgb(0,123,255,0.3);
 }
+
 .content{
   max-width: 1250px;
   margin: auto;
@@ -80,7 +85,7 @@ background: rgb(0,123,255,0.3);
   justify-content: center;
 }
 .summary{
-  padding: 30px 0;
+  padding-top: 70px;
   margin-bottom: 32px;
 }
 .summary .title{
@@ -92,7 +97,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .portfolio {
-  padding: 30px 0;
+  padding-top: 70px;
   margin-bottom: 32px;
 }
 .portfolio .title{
@@ -104,7 +109,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .team {
-  padding: 30px 0;
+  padding-top: 70px;
   margin-bottom: 32px;
 
 }
@@ -117,7 +122,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .contact {
-  padding: 30px 0;
+  padding-top: 70px;
   margin-bottom: 32px;
 }
 .contact .title{
@@ -129,7 +134,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .contact_fund {
-  padding: 30px 0;
+  padding-top: 70px;
   margin-bottom: 32px;
 }
 .contact_fund .title{
