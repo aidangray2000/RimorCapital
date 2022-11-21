@@ -1,0 +1,35 @@
+.container {
+    width: 100%; 
+    background-color: #ddd; 
+  }
+  
+  .skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+  }
+  
+  .energy {width: 38.54%; background-color: #000000;} 
+  .Agriculture {width: 36.97%; background-color: #000000;} 
+  .basemetals {width: 13.03%; background-color: #000000;} 
+  .preciousmetals {width: 11.44%; background-color: #000000;} 
+
+  .portfolio {
+    padding-top: 70px;
+    margin-bottom: 32px;
+  }
+  .portfolio .title{
+    font-size: 38px;
+    font-weight: 700;
+  }
+  .portfolio p{
+    padding-top: 20px;
+    text-align: justify;
+  }
+
+  .content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 30px;
+  }

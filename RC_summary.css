@@ -1,0 +1,19 @@
+
+.summary{
+    padding-top: 70px;
+    margin-bottom: 32px;
+  }
+  .summary .title{
+    font-size: 38px;
+    font-weight: 700;
+  }
+  .summary p{
+    padding-top: 20px;
+    text-align: justify;
+  }
+
+  .content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 30px;
+  }
