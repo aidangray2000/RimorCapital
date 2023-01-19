@@ -230,10 +230,10 @@ background: rgb(0,123,255,0.3);
   color: white; 
 }
 
-.energy {width: 38.54%; background-color: #000000;} 
-.Agriculture {width: 36.97%; background-color: #000000;} 
-.basemetals {width: 13.03%; background-color: #000000;} 
-.preciousmetals {width: 11.44%; background-color: #000000;} 
+.energy {width: 46.43%; background-color: #000000;} 
+.Agriculture {width: 32.14%; background-color: #000000;} 
+.basemetals {width: 13.77%; background-color: #000000;} 
+.preciousmetals {width: 7.06%; background-color: #000000;} 
 
 .column {
   float: left;
