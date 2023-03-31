@@ -416,6 +416,49 @@ h3 span {
     margin-top: 5px;
 }
 
+@media screen and (max-width: 1024px) {
+    .title_banner {
+        font-size: 18px;
+    }
+
+    .date_banner {
+        font-size: 14px;
+    }
+
+    .value_banner {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title_banner {
+        font-size: 16px;
+    }
+
+    .date_banner {
+        font-size: 12px;
+    }
+
+    .value_banner {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title_banner {
+        font-size: 14px;
+    }
+
+    .date_banner {
+        font-size: 10px;
+    }
+
+    .value_banner {
+        font-size: 16px;
+    }
+}
+
+
 
 
 
