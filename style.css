@@ -85,7 +85,7 @@ background: rgb(0,123,255,0.3);
   justify-content: center;
 }
 .summary{
-  padding-top: 70px;
+  padding-top: 100px;
   margin-bottom: 32px;
 }
 .summary .title{
@@ -97,7 +97,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .portfolio {
-  padding-top: 70px;
+  padding-top: 100px;
   margin-bottom: 32px;
 }
 .portfolio .title{
@@ -109,7 +109,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .team {
-  padding-top: 70px;
+  padding-top: 100px;
   margin-bottom: 32px;
 
 }
@@ -122,7 +122,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .contact {
-  padding-top: 70px;
+  padding-top: 0px;
   margin-bottom: 32px;
 }
 .contact .title{
@@ -134,7 +134,7 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .contact_fund {
-  padding-top: 70px;
+  padding-top: 100px;
   margin-bottom: 32px;
 }
 .contact_fund .title{
@@ -332,7 +332,7 @@ h3 span {
   padding-top: 120px;
   text-align: center;
 }
-
+/* 
 .overlay {
   width: 100%;
   padding: 8px;
@@ -373,7 +373,52 @@ h3 span {
   grid-column-gap: 64px;
   grid-row-gap: 64px;
   align-self: center;
+} */
+
+
+
+.banner {
+    position: relative;
 }
+
+.banner_overlay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.overlay {
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+}
+
+.title_banner {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.date_banner {
+    font-size: 16px;
+    color: #888;
+}
+
+.value_banner {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+
+
 
 .about {
   padding-top: 8px;
