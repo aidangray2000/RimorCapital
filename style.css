@@ -74,6 +74,17 @@ background: rgb(0,123,255,0.3);
 .menu-list li a:hover{
   color: cyan;
 }
+
+.icon.menu-btn {
+  display: none; /* hide the bars initially */
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
 .banner{
   height: 75vh;
   background: url("banner.jpg") no-repeat;
@@ -85,8 +96,8 @@ background: rgb(0,123,255,0.3);
   justify-content: center;
 }
 .summary{
-  padding-top: 100px;
-  margin-bottom: 32px;
+  padding-top: 70px;
+  margin-bottom: 8px;
 }
 .summary .title{
   font-size: 38px;
@@ -97,8 +108,8 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .portfolio {
-  padding-top: 100px;
-  margin-bottom: 32px;
+  padding-top: 70px;
+  margin-bottom: 8px;
 }
 .portfolio .title{
   font-size: 38px;
@@ -109,8 +120,8 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .team {
-  padding-top: 100px;
-  margin-bottom: 32px;
+  padding-top: 70px;
+  margin-bottom: 8px;
 
 }
 .team .title{
@@ -123,7 +134,7 @@ background: rgb(0,123,255,0.3);
 }
 .contact {
   padding-top: 0px;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 .contact .title{
   font-size: 38px;
@@ -134,8 +145,8 @@ background: rgb(0,123,255,0.3);
   text-align: justify;
 }
 .contact_fund {
-  padding-top: 100px;
-  margin-bottom: 32px;
+  padding-top: 70px;
+  margin-bottom: 8px;
 }
 .contact_fund .title{
   font-size: 38px;
@@ -175,6 +186,9 @@ background: rgb(0,123,255,0.3);
   }
 }
 @media (max-width:868px) {
+  .icon.menu-btn {
+    display: block; /* show the bars on small screens */
+  }  
   body.disabled{
     overflow: hidden;
   }
